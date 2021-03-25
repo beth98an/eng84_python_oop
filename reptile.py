@@ -1,6 +1,7 @@
 # Let's import Animal class
 
-from animal import Animal # this is
+from animal import Animal
+
 
 class Reptile(Animal):  # we need to pass the animal class as an arg in our Reptile class
     def __init__(self):

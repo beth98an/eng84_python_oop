@@ -1,8 +1,9 @@
 # Let's create our first class
 # syntax: class is the key word then name of the class
 
-#class Animal():
-    #pass  # pass is a key word used to by pass the code
+class Animals():
+    pass  # pass is a key word used to by pass the code
+
 
 class Animal():
     name = "Dog"  # class variable

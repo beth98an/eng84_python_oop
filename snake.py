@@ -2,6 +2,7 @@
 
 from reptile import Reptile
 
+
 class Snake(Reptile):
     def __init__(self):
         super().__init__()
@@ -10,10 +11,11 @@ class Snake(Reptile):
         self.fork_tongue = True
 
     def use_tongue_to_smell(self):
-        return "I use my toungue to smell the food"
+        return "I use my tongue to smell the food"
 
     def shed_skin(self):
         return "growing out"
+
 
 snake_object = Snake()
 print(snake_object.eat())  # eat() is inherited from the Animal class

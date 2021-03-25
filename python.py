@@ -23,13 +23,3 @@ print(python_object.alive)  # alive is inherited from the Animal class
 print(python_object.use_tongue_to_smell())  # use_tongue_to-smell is inherited from the Snake class
 print(python_object.cold_blooded)  # cold_blooded is inherited from the Reptile class
 print(python_object.climb())  # climb() is inherited from the Python class
-
-
-# def have_venom(snake):
-#     return snake.venom
-#
-#
-# snake_object = Snake()
-#
-# print(have_venom(python_object))
-# print(have_venom(snake_object))
